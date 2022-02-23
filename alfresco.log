@@ -1,0 +1,191 @@
+2022-02-23 08:23:09,137 WARN  [org.alfresco.heartbeat.datasender.HBDataSenderServiceBuilder] [main] Setting the Heartbeat sender cron with property 'heartbeat.sender.cronExpression' is no longer supported.
+2022-02-23 08:23:09,309 INFO  [org.alfresco.repo.domain.schema.SchemaBootstrap] [main] Ignoring script patch (post-Hibernate): patch.db-V4.2-metadata-query-indexes
+2022-02-23 08:23:09,309 INFO  [org.alfresco.repo.domain.schema.SchemaBootstrap] [main] Ignoring script patch (post-Hibernate): patch.db-V5.1-metadata-query-indexes
+2022-02-23 08:23:09,309 INFO  [org.alfresco.repo.domain.schema.SchemaBootstrap] [main] Ignoring script patch (post-Hibernate): patch.db-V5.2-remove-jbpm-tables-from-db
+2022-02-23 08:23:09,319 INFO  [org.alfresco.repo.domain.schema.SchemaBootstrap] [main] Ignoring script patch (post-Hibernate): patch.db-V6.3-add-indexes-node-transaction
+2022-02-23 08:23:09,319 INFO  [org.alfresco.repo.domain.schema.SchemaBootstrap] [main] Ignoring script patch (post-Hibernate): patch.db-V7.1.0-remove-alf_server-table
+2022-02-23 08:23:09,513 INFO  [org.alfresco.repo.admin] [main] Using database URL 'jdbc:postgresql://localhost:5432/alfresco' with user 'alfresco'.
+2022-02-23 08:23:09,513 INFO  [org.alfresco.repo.admin] [main] Connected to database PostgreSQL version 13.6
+2022-02-23 08:23:12,810 ERROR [org.alfresco.repo.content.transform.LocalTransformServiceRegistry] [QuartzScheduler_Worker-2] Transformer "officeToImageViaPdf" references the transformOptions (pdfRendererOptions) which do not exist. Read from resource alfresco/transforms/0100-basePipelines.json
+2022-02-23 08:23:12,810 ERROR [org.alfresco.repo.content.transform.LocalTransformServiceRegistry] [QuartzScheduler_Worker-2] Transformer "pdfToImageViaPng" references the transformOptions (pdfRendererOptions) which do not exist. Read from resource alfresco/transforms/0100-basePipelines.json
+2022-02-23 08:23:12,810 ERROR [org.alfresco.repo.content.transform.LocalTransformServiceRegistry] [QuartzScheduler_Worker-1] Transformer "officeToImageViaPdf" references the transformOptions (pdfRendererOptions) which do not exist. Read from resource alfresco/transforms/0100-basePipelines.json
+2022-02-23 08:23:12,810 ERROR [org.alfresco.repo.content.transform.LocalTransformServiceRegistry] [QuartzScheduler_Worker-2] Transformer "iWorksToImageViaJpg" references the transformOptions (imageMagickOptions) which do not exist. Read from resource alfresco/transforms/0100-basePipelines.json
+2022-02-23 08:23:12,810 ERROR [org.alfresco.repo.content.transform.LocalTransformServiceRegistry] [QuartzScheduler_Worker-2] Transformer "outlookMsg2Image" references the transformOptions (pdfRendererOptions) which do not exist. Read from resource alfresco/transforms/0100-basePipelines.json
+2022-02-23 08:23:12,810 ERROR [org.alfresco.repo.content.transform.LocalTransformServiceRegistry] [QuartzScheduler_Worker-2] Transformer "outlookMsg2Pdf" references the transformOptions (tikaOptions) which do not exist. Read from resource alfresco/transforms/0100-basePipelines.json
+2022-02-23 08:23:12,810 ERROR [org.alfresco.repo.content.transform.LocalTransformServiceRegistry] [QuartzScheduler_Worker-2] Transformer "rfc822ToImage" references the transformOptions (pdfRendererOptions) which do not exist. Read from resource alfresco/transforms/0100-basePipelines.json
+2022-02-23 08:23:12,810 ERROR [org.alfresco.repo.content.transform.LocalTransformServiceRegistry] [QuartzScheduler_Worker-2] Transformer "textToImageViaPdf" references the transformOptions (pdfRendererOptions) which do not exist. Read from resource alfresco/transforms/0100-basePipelines.json
+2022-02-23 08:23:12,810 ERROR [org.alfresco.repo.content.transform.LocalTransformServiceRegistry] [QuartzScheduler_Worker-2] Transformer "ooXmlToImageViaText" references the transformOptions (pdfRendererOptions) which do not exist. Read from resource alfresco/transforms/0100-basePipelines.json
+2022-02-23 08:23:12,810 ERROR [org.alfresco.repo.content.transform.LocalTransformServiceRegistry] [QuartzScheduler_Worker-2] Transformer "archiveToImageViaText" references the transformOptions (pdfRendererOptions) which do not exist. Read from resource alfresco/transforms/0100-basePipelines.json
+2022-02-23 08:23:12,810 ERROR [org.alfresco.repo.content.transform.LocalTransformServiceRegistry] [QuartzScheduler_Worker-2] Transformer "ooXmlToPdfViaText" references the transformOptions (tikaOptions) which do not exist. Read from resource alfresco/transforms/0100-basePipelines.json
+2022-02-23 08:23:12,810 ERROR [org.alfresco.repo.content.transform.LocalTransformServiceRegistry] [QuartzScheduler_Worker-2] Transformer "archiveToPdfViaText2" references the transformOptions (archiveOptions) which do not exist. Read from resource alfresco/transforms/0100-basePipelines.json
+2022-02-23 08:23:12,810 ERROR [org.alfresco.repo.content.transform.LocalTransformServiceRegistry] [QuartzScheduler_Worker-2] Transformer "libreofficeToPdfBoxViaPdf" references the transformOptions (pdfboxOptions) which do not exist. Read from resource alfresco/transforms/0100-basePipelines.json
+2022-02-23 08:23:12,810 ERROR [org.alfresco.repo.content.transform.LocalTransformServiceRegistry] [QuartzScheduler_Worker-2] Transformer "textBasedToImageViaText" references the transformOptions (pdfRendererOptions) which do not exist. Read from resource alfresco/transforms/0100-basePipelines.json
+2022-02-23 08:23:12,810 ERROR [org.alfresco.repo.content.transform.LocalTransformServiceRegistry] [QuartzScheduler_Worker-2] Transformer "outlookMsgToLibreofficeViaText" references the transformOptions (tikaOptions) which do not exist. Read from resource alfresco/transforms/0100-basePipelines.json
+2022-02-23 08:23:12,810 ERROR [org.alfresco.repo.content.transform.LocalTransformServiceRegistry] [QuartzScheduler_Worker-2] Transformer "htmlToImageViaTXT" references the transformOptions (pdfRendererOptions) which do not exist. Read from resource alfresco/transforms/0100-basePipelines.json
+2022-02-23 08:23:12,810 WARN  [org.alfresco.repo.content.transform.LocalTransformServiceRegistry] [QuartzScheduler_Worker-2] Transformer "rfc822ToPdf" ignored as step transforms ("rfc822", "libreoffice") do not exist. Read from resource alfresco/transforms/0100-basePipelines.json
+2022-02-23 08:23:12,810 WARN  [org.alfresco.repo.content.transform.LocalTransformServiceRegistry] [QuartzScheduler_Worker-2] Transformer "htmlToPdfViaTXT" ignored as step transforms ("string", "libreoffice") do not exist. Read from resource alfresco/transforms/0100-basePipelines.json
+2022-02-23 08:23:12,810 ERROR [org.alfresco.repo.content.transform.LocalTransformServiceRegistry] [QuartzScheduler_Worker-1] Transformer "pdfToImageViaPng" references the transformOptions (pdfRendererOptions) which do not exist. Read from resource alfresco/transforms/0100-basePipelines.json
+2022-02-23 08:23:12,810 ERROR [org.alfresco.repo.content.transform.LocalTransformServiceRegistry] [QuartzScheduler_Worker-1] Transformer "iWorksToImageViaJpg" references the transformOptions (imageMagickOptions) which do not exist. Read from resource alfresco/transforms/0100-basePipelines.json
+2022-02-23 08:23:12,810 ERROR [org.alfresco.repo.content.transform.LocalTransformServiceRegistry] [QuartzScheduler_Worker-1] Transformer "outlookMsg2Image" references the transformOptions (pdfRendererOptions) which do not exist. Read from resource alfresco/transforms/0100-basePipelines.json
+2022-02-23 08:23:12,810 ERROR [org.alfresco.repo.content.transform.LocalTransformServiceRegistry] [QuartzScheduler_Worker-1] Transformer "outlookMsg2Pdf" references the transformOptions (tikaOptions) which do not exist. Read from resource alfresco/transforms/0100-basePipelines.json
+2022-02-23 08:23:12,810 ERROR [org.alfresco.repo.content.transform.LocalTransformServiceRegistry] [QuartzScheduler_Worker-1] Transformer "rfc822ToImage" references the transformOptions (pdfRendererOptions) which do not exist. Read from resource alfresco/transforms/0100-basePipelines.json
+2022-02-23 08:23:12,810 ERROR [org.alfresco.repo.content.transform.LocalTransformServiceRegistry] [QuartzScheduler_Worker-1] Transformer "textToImageViaPdf" references the transformOptions (pdfRendererOptions) which do not exist. Read from resource alfresco/transforms/0100-basePipelines.json
+2022-02-23 08:23:12,810 ERROR [org.alfresco.repo.content.transform.LocalTransformServiceRegistry] [QuartzScheduler_Worker-1] Transformer "ooXmlToImageViaText" references the transformOptions (pdfRendererOptions) which do not exist. Read from resource alfresco/transforms/0100-basePipelines.json
+2022-02-23 08:23:12,810 ERROR [org.alfresco.repo.content.transform.LocalTransformServiceRegistry] [QuartzScheduler_Worker-1] Transformer "archiveToImageViaText" references the transformOptions (pdfRendererOptions) which do not exist. Read from resource alfresco/transforms/0100-basePipelines.json
+2022-02-23 08:23:12,810 ERROR [org.alfresco.repo.content.transform.LocalTransformServiceRegistry] [QuartzScheduler_Worker-1] Transformer "ooXmlToPdfViaText" references the transformOptions (tikaOptions) which do not exist. Read from resource alfresco/transforms/0100-basePipelines.json
+2022-02-23 08:23:12,810 ERROR [org.alfresco.repo.content.transform.LocalTransformServiceRegistry] [QuartzScheduler_Worker-1] Transformer "archiveToPdfViaText2" references the transformOptions (archiveOptions) which do not exist. Read from resource alfresco/transforms/0100-basePipelines.json
+2022-02-23 08:23:12,810 ERROR [org.alfresco.repo.content.transform.LocalTransformServiceRegistry] [QuartzScheduler_Worker-1] Transformer "libreofficeToPdfBoxViaPdf" references the transformOptions (pdfboxOptions) which do not exist. Read from resource alfresco/transforms/0100-basePipelines.json
+2022-02-23 08:23:12,810 ERROR [org.alfresco.repo.content.transform.LocalTransformServiceRegistry] [QuartzScheduler_Worker-1] Transformer "textBasedToImageViaText" references the transformOptions (pdfRendererOptions) which do not exist. Read from resource alfresco/transforms/0100-basePipelines.json
+2022-02-23 08:23:12,810 ERROR [org.alfresco.repo.content.transform.LocalTransformServiceRegistry] [QuartzScheduler_Worker-1] Transformer "outlookMsgToLibreofficeViaText" references the transformOptions (tikaOptions) which do not exist. Read from resource alfresco/transforms/0100-basePipelines.json
+2022-02-23 08:23:12,810 ERROR [org.alfresco.repo.content.transform.LocalTransformServiceRegistry] [QuartzScheduler_Worker-1] Transformer "htmlToImageViaTXT" references the transformOptions (pdfRendererOptions) which do not exist. Read from resource alfresco/transforms/0100-basePipelines.json
+2022-02-23 08:23:12,810 WARN  [org.alfresco.repo.content.transform.LocalTransformServiceRegistry] [QuartzScheduler_Worker-1] Transformer "rfc822ToPdf" ignored as step transforms ("rfc822", "libreoffice") do not exist. Read from resource alfresco/transforms/0100-basePipelines.json
+2022-02-23 08:23:12,810 WARN  [org.alfresco.repo.content.transform.LocalTransformServiceRegistry] [QuartzScheduler_Worker-1] Transformer "htmlToPdfViaTXT" ignored as step transforms ("string", "libreoffice") do not exist. Read from resource alfresco/transforms/0100-basePipelines.json
+2022-02-23 08:23:13,138 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] [main] Starting 'Authentication' subsystem, ID: [Authentication, managed, alfrescoNtlm1]
+2022-02-23 08:23:13,195 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] [main] Startup of 'Authentication' subsystem, ID: [Authentication, managed, alfrescoNtlm1] complete
+2022-02-23 08:23:14,973 INFO  [org.springframework.extensions.webscripts.TemplateProcessorRegistry] [main] Registered template processor Repository Template Processor for extension ftl
+2022-02-23 08:23:14,989 INFO  [org.springframework.extensions.webscripts.ScriptProcessorRegistry] [main] Registered script processor Repository Script Processor for extension js
+2022-02-23 08:23:16,855 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] [main] Starting 'ContentStore' subsystem, ID: [ContentStore, managed, unencrypted]
+2022-02-23 08:23:16,871 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] [main] Startup of 'ContentStore' subsystem, ID: [ContentStore, managed, unencrypted] complete
+2022-02-23 08:23:16,969 INFO  [org.alfresco.repo.domain.schema.SchemaBootstrap] [main] Connecting to database: jdbc:postgresql://localhost:5432/alfresco, UserName=alfresco, PostgreSQL JDBC Driver
+2022-02-23 08:23:16,969 INFO  [org.alfresco.repo.domain.schema.SchemaBootstrap] [main] Schema managed by database dialect org.alfresco.repo.domain.dialect.PostgreSQLDialect.
+2022-02-23 08:23:17,187 INFO  [org.alfresco.repo.domain.schema.SchemaBootstrap] [main] Applied patches detected: 10
+2022-02-23 08:23:17,229 INFO  [org.alfresco.repo.domain.schema.SchemaBootstrap] [main] Checking and patching Alfresco tables took 42 ms
+2022-02-23 08:23:17,264 INFO  [org.alfresco.repo.domain.schema.SchemaBootstrap] [main] Activiti tables need to be checked for patches
+2022-02-23 08:23:17,281 INFO  [org.alfresco.repo.domain.schema.SchemaBootstrap] [main] Checking and patching Activiti tables took 17 ms
+2022-02-23 08:23:17,307 INFO  [org.alfresco.repo.domain.schema.SchemaBootstrap] [main] Checking that all patches have been applied took 26 ms
+2022-02-23 08:23:17,307 INFO  [org.alfresco.repo.domain.schema.SchemaBootstrap] [main] Updating the DB schema took 338 ms
+2022-02-23 08:23:17,307 INFO  [org.alfresco.repo.domain.schema.SchemaBootstrap] [main] No changes were made to the schema.
+2022-02-23 08:23:17,375 ERROR [org.springframework.web.context.ContextLoader] [main] Context initialization failed
+org.alfresco.error.AlfrescoRuntimeException: 01230004 Keystores are invalid
+	at org.alfresco.encryption.EncryptionChecker$1.execute(EncryptionChecker.java:78)
+	at org.alfresco.encryption.EncryptionChecker$1.execute(EncryptionChecker.java:1)
+	at org.alfresco.repo.transaction.RetryingTransactionHelper.doInTransaction(RetryingTransactionHelper.java:450)
+	at org.alfresco.repo.transaction.RetryingTransactionHelper.doInTransaction(RetryingTransactionHelper.java:319)
+	at org.alfresco.encryption.EncryptionChecker.onBootstrap(EncryptionChecker.java:67)
+	at org.springframework.extensions.surf.util.AbstractLifecycleBean.onApplicationEvent(AbstractLifecycleBean.java:56)
+	at org.alfresco.repo.management.SafeApplicationEventMulticaster.multicastEventInternal(SafeApplicationEventMulticaster.java:232)
+	at org.alfresco.repo.management.SafeApplicationEventMulticaster.multicastEvent(SafeApplicationEventMulticaster.java:197)
+	at org.alfresco.repo.management.SafeApplicationEventMulticaster.multicastEvent(SafeApplicationEventMulticaster.java:217)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:421)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:378)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:938)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:586)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:401)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:292)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:103)
+	at org.alfresco.web.app.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:70)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4768)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5230)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:726)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:698)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:696)
+	at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:1024)
+	at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1911)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:118)
+	at org.apache.catalina.startup.HostConfig.deployWARs(HostConfig.java:825)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:475)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1618)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:319)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+	at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+	at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:946)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:835)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:263)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:432)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:927)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:772)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+Caused by: org.alfresco.error.AlfrescoRuntimeException: 01230003 Failed to create key: metadata
+ in key store: 
+   Location: E:/alfresco-community-71/Tomcat/shared/classes/alfresco/extension/keystore/keystore
+   Provider: null
+   Type:     pkcs12
+	at org.alfresco.encryption.AlfrescoKeyStoreImpl.createKey(AlfrescoKeyStoreImpl.java:664)
+	at org.alfresco.encryption.AlfrescoKeyStoreImpl.validateKeys(AlfrescoKeyStoreImpl.java:915)
+	at org.alfresco.encryption.AlfrescoKeyStoreImpl.validateKeys(AlfrescoKeyStoreImpl.java:188)
+	at org.alfresco.encryption.KeyStoreChecker.validateKeyStores(KeyStoreChecker.java:49)
+	at org.alfresco.encryption.EncryptionChecker$1.execute(EncryptionChecker.java:73)
+	... 57 more
+Caused by: org.alfresco.error.AlfrescoRuntimeException: 01230002 Unable to get secret key: no key information is provided
+	at org.alfresco.encryption.AlfrescoKeyStoreImpl.getSecretKey(AlfrescoKeyStoreImpl.java:775)
+	at org.alfresco.encryption.AlfrescoKeyStoreImpl.createKey(AlfrescoKeyStoreImpl.java:642)
+	... 61 more
+2022-02-23 08:23:17,482 WARN  [org.springframework.web.context.support.XmlWebApplicationContext] [main] Exception thrown from ApplicationListener handling ContextClosedEvent
+java.lang.NullPointerException
+	at org.alfresco.repo.workflow.activiti.ActivitiEngineInitializer.onShutdown(ActivitiEngineInitializer.java:65)
+	at org.springframework.extensions.surf.util.AbstractLifecycleBean.onApplicationEvent(AbstractLifecycleBean.java:67)
+	at org.alfresco.repo.management.SafeApplicationEventMulticaster.multicastEventInternal(SafeApplicationEventMulticaster.java:232)
+	at org.alfresco.repo.management.SafeApplicationEventMulticaster.multicastEvent(SafeApplicationEventMulticaster.java:202)
+	at org.alfresco.repo.management.SafeApplicationEventMulticaster.multicastEvent(SafeApplicationEventMulticaster.java:217)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:421)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:378)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1058)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1021)
+	at org.springframework.web.context.ContextLoader.closeWebApplicationContext(ContextLoader.java:517)
+	at org.springframework.web.context.ContextLoaderListener.contextDestroyed(ContextLoaderListener.java:112)
+	at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:4816)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5477)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:187)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:726)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:698)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:696)
+	at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:1024)
+	at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1911)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:118)
+	at org.apache.catalina.startup.HostConfig.deployWARs(HostConfig.java:825)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:475)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1618)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:319)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+	at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+	at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:946)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:835)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:263)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:432)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:927)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:772)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+2022-02-23 08:23:17,534 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] [main] Stopping 'ContentStore' subsystem, ID: [ContentStore, managed, unencrypted]
+2022-02-23 08:23:17,534 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] [main] Stopped 'ContentStore' subsystem, ID: [ContentStore, managed, unencrypted]
+2022-02-23 08:23:17,688 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] [main] Stopping 'Authentication' subsystem, ID: [Authentication, managed, alfrescoNtlm1]
+2022-02-23 08:23:17,688 INFO  [org.alfresco.repo.management.subsystems.ChildApplicationContextFactory] [main] Stopped 'Authentication' subsystem, ID: [Authentication, managed, alfrescoNtlm1]
